@@ -44,7 +44,7 @@
 
 <style>
   .top-bar {
-    background-color: rgb(218, 191, 164);
+    background-color: rgb(219, 254, 242);
     padding: 0.75rem 1.5rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     position: relative;
