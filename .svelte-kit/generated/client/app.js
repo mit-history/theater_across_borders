@@ -16,7 +16,7 @@ export const dictionary = {
 		"/": [2],
 		"/About": [3],
 		"/Affiliates": [4],
-		"/Search and Visualization Tool": [5],
+		"/Explore the Data": [5],
 		"/Team": [6]
 	};
 

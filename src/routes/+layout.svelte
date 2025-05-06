@@ -16,15 +16,15 @@
 
 <header class="top-bar">
   <div class="top-bar-container">
-    <button class="hamburger" on:click={toggleMenu} aria-label="Toggle navigation">
+    <!-- <button class="hamburger" on:click={toggleMenu} aria-label="Toggle navigation">
       ☰
-    </button>
+    </button> -->
 
     <ul class:open={isOpen}>
       <li><a href={base + '/'}>Home</a></li>
       <li><a href={base + '/About'}>About</a></li>
       <li><a href={base + '/Affiliates'}>Affiliates</a></li>
-      <li><a href={base + '/Search%20and%20Visualization%20Tool'}>Search and Visualization Tool</a></li>
+      <li><a href={base + '/Explore%20the%20Data'}>Explore the Data</a></li>
       <li><a href={base + '/Team'}>Team</a></li>
     </ul>
 
@@ -44,7 +44,7 @@
 
 <style>
   .top-bar {
-    background-color: rgb(219, 254, 242);
+    background-color: rgb(51, 168, 98);
     padding: 0.75rem 1.5rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -62,14 +62,14 @@
     width: 100%;
   }
 
-  .hamburger {
+  /* .hamburger {
     font-size: 2rem;
     background: none;
     border: none;
     color: black;
     cursor: pointer;
     padding: 0.5rem;
-  }
+  } */
 
   .search-icon {
     background: none;
@@ -115,7 +115,7 @@
     li a:hover,
     li a:focus {
         /* background-color: rgba(255, 255, 255, 0.119); */
-        color: rgb(159, 158, 158);
+        color: rgb(255, 254, 254);
         transition: stroke 0.2s ease
     }
 
